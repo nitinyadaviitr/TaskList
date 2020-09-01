@@ -16,6 +16,10 @@
 		1ECFE13724FE4F6800148252 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE13624FE4F6800148252 /* Task.swift */; };
 		1ECFE13924FE4F8900148252 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE13824FE4F8900148252 /* TaskStore.swift */; };
 		1ECFE13E24FE591600148252 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE13D24FE591600148252 /* NewTaskView.swift */; };
+		1ECFE14324FE6CB500148252 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE14224FE6CB500148252 /* RowView.swift */; };
+		1ECFE14524FE70D900148252 /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE14424FE70D900148252 /* TaskEditingView.swift */; };
+		1ECFE14924FE72AF00148252 /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE14724FE72AF00148252 /* IndexedCollection.swift */; };
+		1ECFE14A24FE72AF00148252 /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFE14824FE72AF00148252 /* ForEach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		1ECFE13624FE4F6800148252 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		1ECFE13824FE4F8900148252 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		1ECFE13D24FE591600148252 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		1ECFE14224FE6CB500148252 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		1ECFE14424FE70D900148252 /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
+		1ECFE14724FE72AF00148252 /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
+		1ECFE14824FE72AF00148252 /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 		1ECFE11624FE4F5300148252 = {
 			isa = PBXGroup;
 			children = (
+				1ECFE14624FE72AF00148252 /* extension */,
 				1ECFE12124FE4F5400148252 /* TaskList */,
 				1ECFE12024FE4F5400148252 /* Products */,
 			);
@@ -94,10 +103,21 @@
 		1ECFE13F24FE59C600148252 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1ECFE14224FE6CB500148252 /* RowView.swift */,
 				1ECFE12624FE4F5400148252 /* ContentView.swift */,
 				1ECFE13D24FE591600148252 /* NewTaskView.swift */,
+				1ECFE14424FE70D900148252 /* TaskEditingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1ECFE14624FE72AF00148252 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				1ECFE14724FE72AF00148252 /* IndexedCollection.swift */,
+				1ECFE14824FE72AF00148252 /* ForEach.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +193,13 @@
 			files = (
 				1ECFE13924FE4F8900148252 /* TaskStore.swift in Sources */,
 				1ECFE13724FE4F6800148252 /* Task.swift in Sources */,
+				1ECFE14924FE72AF00148252 /* IndexedCollection.swift in Sources */,
+				1ECFE14524FE70D900148252 /* TaskEditingView.swift in Sources */,
+				1ECFE14324FE6CB500148252 /* RowView.swift in Sources */,
 				1ECFE13E24FE591600148252 /* NewTaskView.swift in Sources */,
 				1ECFE12324FE4F5400148252 /* AppDelegate.swift in Sources */,
 				1ECFE12524FE4F5400148252 /* SceneDelegate.swift in Sources */,
+				1ECFE14A24FE72AF00148252 /* ForEach.swift in Sources */,
 				1ECFE12724FE4F5400148252 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
